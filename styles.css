@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.material-icons {
+  font-size: 18px;
+}
+
+.keyboard_textarea {
+  width: 100%;
+  margin-top: 25px;
+  resize: none;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.keys__row {
+  display: flex;
+}
+
+.key {
+  height: 45px;
+  margin: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  border: 2px solid lightskyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s linear;
+  flex-basis: 30px;
+  flex-grow: 1;
+  user-select: none;
+}
+
+.key-mouse_over {
+  background-color: #e7f5fe;
+}
+
+.key-active {
+  color: white;
+  background-color: lightskyblue;
+}
+
+.key-backspace {
+  flex-grow: 2;
+}
+
+.key-tab {
+  flex-grow: 1.5;
+}
+
+.key-backslash {
+  flex-grow: 1.5;
+}
+
+.key-caps {
+  flex-grow: 2;
+}
+
+.key-enter {
+  flex-grow: 2.3;
+}
+
+.key-shift-left {
+  flex-grow: 2.5;
+}
+
+.key-shift-right {
+  flex-grow: 5;
+}
+
+.key-space {
+  flex-grow: 8;
+}
